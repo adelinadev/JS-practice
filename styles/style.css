@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aliceblue;
+}
+
+.container {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.btn_buttons{
+    display: flex;
+}
+
+/* input {
+    width: 400px;
+    padding: 7px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 2px solid grey;
+} */
+
+.btn_buttons button {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+#add, #sub {
+    
+    background-color: crimson;
+}
+#multiply, #divide {
+    background-color: blueviolet;
+}
+
+#out {
+    display: none;
+    margin-top: 25px;
+    font-size: 18px;
+    border: 1px solid lightgrey;
+    width: 400px;
+    padding: 7px;
+}
