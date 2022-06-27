@@ -75,3 +75,24 @@ document.querySelector('.indexOfmeth_btn').onclick = ()=>{
         out.innerHTML = "Search element was found on position " + `${idx}`;
     }
 }
+
+
+// Pop and push section
+let car = [];
+
+document.querySelector('.push').onclick = () =>{
+    let id = +document.querySelector('#goods').value;
+    if( !car.includes(id) ){
+        car.push(id)
+    }
+   
+    console.log(car); 
+    document.querySelector('#goods').value = "";
+}
+
+document.querySelector('.pop').onclick = () =>{
+    let id = +document.querySelector('#goods').value;
+    let goods = car.pop();
+    console.log('Товар ' + goods + ' було видалено');
+    console.log(car); 
+}
